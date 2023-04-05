@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="form.css">
+    <style>
+       p {padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    font-size: large;}
+
+ h1 {padding: 0px;
+     margin: auto;}
+
+label {margin-bottom: 50px;}
+
+img {width: 80px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 10px;}
+
+.ola {padding: 0%;}
+.ola, .olas {display: inline-table;
+             padding-bottom: 5px;}
+.ef, .el {display: inline-table;
+          margin-bottom: 5px;
+          padding-top: 0px;}
+
+.ef {padding-left: 100px;}
+
+.view {padding-top: 15px;
+       padding-bottom: 25px;
+       padding-left: 35px;}
+
+.vie {padding-top: 15px;
+       padding-bottom: 25px;
+       padding-left: 155px;}
+
+body{max-width: 700px;
+     margin: auto;
+     padding-bottom: 30px;}
+
+.pose {padding-bottom: 20px;
+       padding-top: 20px;
+       padding-left: 85px;}
+
+.ema {padding-left: 155px;}
+
+
+.play{padding-bottom: 30px;}
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+    <img src="Untitled-design-4.png" alt="an eagle logo">
+    </header>
+    <h1>Form of online payment by Paypal</h1>
+    <p>What would you buy</p><hr>
+    <form action="formpro" method="post">
+
+        <section>
+            <label class="ola">How many shoes do you buy?</label>
+                <div class="olas">
+                <input id="p1" type="checkbox" />
+                <label for="p1">1-$10</label><br>
+                <input id="p2" type="checkbox" />
+                <label for="p2">2-$20</label><br>
+                <input id="p3" type="checkbox" />
+                <label for="p3">3-$30</label><br>
+                </div>
+        </section>
+
+
+        <label class="view">What color do you want? 
+        <select >
+            <option value="0">Red</option>
+            <option value="1">Black</option>
+            <option value="2">Yellow</option>
+            <option value="3">Pink</option>
+            <option value="4">Green</option>
+        </select>
+        </label>
+
+        
+    <section class="vie">
+        <label for="fullname">name:
+            <input id="first-name" name="first-name" type="text" placeholder="First Name" required/>
+            <input id="last-name" name="last-name" type="text" placeholder="Last Name" required/>
+        </label> 
+    </section>
+
+    <section class="ef">
+        <label  for="street">Street Address 
+        <div class="el">
+            <input  id="address" name="address" type="text" required/><br>
+            <label>Street address</label><br>
+            <input  id="address" name="address" type="text" required/><br>
+            <label>Address line 2</label><br>
+            <input  id="address" name="address" type="text" required/><br>
+            <label>City</label><br>
+            <input  id="address" name="address" type="text" required/><br>
+            <label>State/Province/Region</label><br>
+            <input  id="address" name="address" type="text" required/><br>
+            <label>Postal/ZIP</label><br>
+            <input  id="address" name="address" type="text" required/><br>
+            <label>Country</label><br>
+        </div>
+        </label> 
+    </section>
+
+    <section class="ema">
+        <label for="email">Email 
+            <input id="email" name="email" type="email" required/>
+        </label>
+    </section>
+    
+
+    <section class="pose">
+        <label>Payment Method
+        <select>
+            <option value="0">Paypal only</option>
+            <option value="1">Debit card</option>
+            <option value="2">Transfer</option>
+        </select>
+        </label>
+    </section>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+    
+  </body>
+</html>
